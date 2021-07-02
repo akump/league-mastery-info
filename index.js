@@ -12,7 +12,7 @@ const getChampMastery = async function () {
     }
 
     // * Change me to your summoner
-    const { id } = await fetch(`https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/adonu`, {
+    const { id } = await fetch(`https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/private ttocs`, {
         headers: {
             'X-Riot-Token': apiKey
         }
@@ -35,7 +35,7 @@ const getChampMastery = async function () {
     console.log('############');
     console.log(`Total mastery points: ${totalMastery.toLocaleString()}`);
     return {
-        champMasteryInfo: info,
+        userMasteryInfo: info,
         totalMastery: totalMastery
     };
 };
