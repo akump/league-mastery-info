@@ -6,6 +6,7 @@
 * `node .`
 
 ```
+Total mastery points: 3,377,076
 ### Champ Mastery ###
 Velkoz: 597,238 
 Thresh: 227,542 
@@ -141,8 +142,6 @@ Skarner: 108
 Kennen: 94 
 JarvanIV: 91 
 Viego: 70 
-############
-Total mastery points: 3,377,076
 ```
 
 
