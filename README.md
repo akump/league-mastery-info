@@ -1,7 +1,9 @@
 # league-mastery-info
 
+* `git clone https://github.com/akump/league-mastery-info.git`
+* `cd league-mastery-info`
 * `npm i`
-* create `.env` at root and set your api key `apiKey=mykeyhere`
+* create `.env` file at root and set your api key `apiKey=mykeyhere`
 * update index.js to use your summoner name
 * `node .`
 
