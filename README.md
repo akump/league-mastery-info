@@ -4,6 +4,7 @@
 * `cd league-mastery-info`
 * `npm i`
 * create `.env` file at root and set your api key `apiKey=mykeyhere`
+  * No API key? Checkout [Riot's documentation](https://developer.riotgames.com/docs/portal#product-registration_application-process)
 * update index.js to use your summoner name
 * `node .`
 
